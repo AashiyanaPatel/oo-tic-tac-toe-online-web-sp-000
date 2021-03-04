@@ -122,7 +122,7 @@ end
    i = 0
    while i < 9
    i += 1
-    
+   turn 
   end
 
   if won?
