@@ -119,8 +119,10 @@ class TicTacToe
 end
 
   def play(game)
-   while over? == false
-    turn
+   i = 0
+   while i < 9
+   i += 1
+    
   end
 
   if won?
