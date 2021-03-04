@@ -1,5 +1,7 @@
 class TicTacToe
   
+  def initialize
+  
   WIN_COMBINATIONS = [
     [0, 1, 2],
     [3, 4, 5],
