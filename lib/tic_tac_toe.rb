@@ -93,7 +93,7 @@ class TicTacToe
   end
   
   def full?
-    @board.all? {|occupied| index == "X" || == " "occupied !}
+    @board.all? {|occupied| occupied || occupied != " "}
   end
   
   def draw?
