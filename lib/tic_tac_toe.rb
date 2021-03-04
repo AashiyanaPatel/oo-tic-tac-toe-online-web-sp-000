@@ -126,7 +126,7 @@ end
   end
 end
 
-  def play
+  def game.play
    until over? == true
     turn
   end
